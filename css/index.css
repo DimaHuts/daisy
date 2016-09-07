@@ -1,0 +1,46 @@
+/*BODY, HTML */
+
+    body{
+        color: white;
+    }
+
+/*a*/
+    a {
+        color: white;
+    }
+
+    a:active, a:hover, a:focus {
+        color: rgba(252, 99, 94, 97);
+    }
+
+/*BUTTON*/
+    button {
+        outline: none;
+    }
+
+/*ARTICLE*/
+    footer.row,
+    article.row {
+        margin: 0;
+    }
+
+    .container {
+        width: initial;
+    }
+
+
+/*h*/
+    h3, h4 {
+        margin: 0;
+    }
+
+/*SCROLLBAR*/
+
+    ::-webkit-scrollbar {
+        width: 2px;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        background-color: #aaa;
+    }

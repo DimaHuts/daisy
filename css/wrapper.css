@@ -1,0 +1,350 @@
+/*MAIN SCREEN*/
+    .wrapper__main-screen {
+        background: url("../img/mainScreen/bg.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .wrapper__main-screen_logo {
+        max-height: 68px;
+        max-width: 139px;
+    }
+
+    .nav > li > a:hover, .nav > li > a:focus {
+        background-color: transparent;
+    }
+
+    .nav > li > a:focus {
+        border-bottom: 3px solid;
+    }
+
+    .nav > li > a {
+        padding-bottom: 0;
+        margin-right: 1em;
+    }
+
+    /*MAIN MENU MOBILE*/
+    .icon-bar {
+        background-color: white;
+    }
+
+    /*image lines*/
+    .wrapper__img-lines > img {
+        position: relative;
+        top: -2px;
+        width: 50px;
+        height: 8px;
+    }
+
+    /*IMAGE MOUSE*/
+    .wrapper__main-screen_mouse {
+        padding-right: 0;
+        margin-top: 2.7em;
+        max-height: 800px;
+        width: 100px;
+    }
+
+    .wrapper__btn-and-mouse {
+        vertical-align: top;
+    }
+
+/***************************EXPAND******************************************************/
+
+    .wrapper__expand {
+        background: url("../img/expand/bg.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .wrapper__border-expand {
+        border: 6px solid rgba(128,128,128,0.5);
+        padding-top: 150px;
+        padding-bottom: 110px;
+    }
+
+/*******************************************OUR PROCESS*******************************************************/
+    /*STEP 1*/
+    .wrapper__lamp-img-lg {
+        background: url('../img/ourProcess/lg/lamp.png');
+    }
+
+    .wrapper__our-process_lamp {
+        position: absolute;
+        left: 65px;
+        top: 96px;
+    }
+
+    /*STEP 2*/
+    .wrapper__tv-img-lg {
+        background: url("../img/ourProcess/lg/tv.png");
+    }
+
+    .wrapper__our-process_tv {
+        position: absolute;
+        top: 150px;
+        left: 333px;
+    }
+
+    /*BOTTOM IMAGE*/
+    .wrapper__our-process_bottom-img {
+        position: absolute;
+        left: 124px;
+        top: 237px;
+        background: url("../img/ourProcess/lg/img.png");
+        width: 416px;
+        height: 314px;
+    }
+
+    /*STEP 3*/
+    .wrapper__head-img-lg {
+        background: url("../img/ourProcess/lg/head.png");
+    }
+
+    .wrapper__our-process_head {
+        position: absolute;
+        top: 0;
+        left: 421px;
+    }
+
+    /*STEP 4*/
+    .wrapper__our-process_finger-img-lg {
+        background: url("../img/ourProcess/lg/finger.png");
+    }
+
+    .wrapper__our-process_finger {
+        position: absolute;
+        left: 590px;
+        top: 70px;
+    }
+
+    /*COMMON*/
+    .wrapper__our-process_img-resizer {
+        width: 193px;
+        height: 201px;
+    }
+
+    .wrapper__our-process_img-resizer-lg {
+        width: 279px;
+        height: 316px;
+    }
+
+    .wrapper__inner-text {
+        position: absolute;
+        top: 40px;
+        left: 45px;
+        max-width: 70%;
+        max-height: 60% !important;
+        overflow-y: auto;
+        line-height: normal;
+    }
+
+    .wrapper__inner-text > p {
+        padding-top: 3px;
+    }
+
+    .wrapper__our-process main{
+        height: 700px;
+        overflow-x: auto;
+    }
+
+
+/**************************************WHAT DO WE DO***********************************************************/
+    /*LANDING PAGES*/
+    .wrapper__we-do_description > h2 {
+        display: inline;
+        vertical-align: bottom;
+    }
+
+    /*ADVERTISING*/
+    .wrapper__we-do_description_rect {
+        display: inline;
+    }
+
+    /*COMMON*/
+    .wrapper__we-do_img-margin {
+        margin-bottom: 5em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+/**************************************PORTFOLIO***************************************************************/
+
+    .wrapper__portfolio {
+        height: 600px;
+    }
+
+    .wrapper__portfolio > nav > ul {
+        text-align: justify;
+        height: 20px;
+    }
+
+    .wrapper__portfolio > nav > ul:after {
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        content: "";
+        display: inline-block;
+    }
+
+    .wrapper__portfolio + button {
+        margin-top: 10px;
+        margin-bottom: 4em;
+    }
+
+   .wrapper__portfolio_img-height {
+       height: 198px;
+   }
+
+   .wrapper__portfolio_img-margin {
+       margin-bottom: 1em;
+   }
+
+/**************************************OUR TEAM****************************************************************/
+
+   .wrapper__our-team_employee {
+       text-overflow: ellipsis;
+       overflow: hidden;
+       white-space: nowrap;
+   }
+
+/**************************************TESTIMONIALS************************************************************/
+
+    .wrapper__testimonials_description_height {
+        height: 200px;
+    }
+
+    .wrapper__testimonials_description {
+        position: absolute;
+        top: 80%;
+    }
+
+    .wrapper__testimonial_avatar {
+        margin: 5em 0;
+    }
+
+    .wrapper__testimonials_pagination img:last-child{
+        margin-left: 2em;
+    }
+
+/****************************************MAP*******************************************************************/
+
+    .wrapper__map_bg {
+        background: url("../img/map/map.png") no-repeat center center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .wrapper__map_inner-img {
+        background: url("../img/map/daisy.png") no-repeat center center;
+        height: 242px;
+        width: 209px;
+    }
+
+    .wrapper__img_transform {
+        position: absolute;
+        transform: translate(-48%, -50%);
+        left: 50%;
+    }
+
+    .wrapper__map_inner-text {
+        left: 15%;
+        top: 20%;
+        width: 70%;
+        height: 60%;
+        overflow: auto;
+    }
+
+/***************************************FOOTER****************************************************************/
+
+    .wrapper__footer {
+        background: url("../img/footer/bg.png") no-repeat center center;
+        background-size: cover;
+        height: 260px;
+    }
+
+    .wrapper__footer_logo {
+        position: absolute;
+        left: 45%;
+        top: 50%;
+    }
+
+/**************************************COMMON STYLES***********************************************************/
+
+/*BUTTON RADIUS*/
+.wrapper__btn-custom-border_margin {
+    margin-top: 2em;
+}
+
+.wrapper__custom-btn {
+    background-color: rgba(252, 99, 94, 97);
+    padding: 8px 30px !important;
+    color: white;
+}
+
+.wrapper__btn-custom-border {
+    background: transparent;
+    max-width: 205px;
+    max-height: 80px;
+    border: 3px solid rgba(252, 99, 94, 97);
+}
+
+.wrapper__header_border-bottom {
+    border-bottom: 1px solid grey;
+    display: inline;
+    padding-bottom: 4px;
+}
+
+.wrapper__text-red {
+    color: rgba(252, 99, 94, 97);
+}
+
+/*SLIDER*/
+    .wrapper__div_position {
+        position: relative;
+    }
+
+    .wrapper__slider__position {
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        padding-bottom: 5px;
+    }
+
+/*WRAPPER*/
+    .wrapper__div_color {
+        color: grey;
+    }
+
+    .wrapper__div_padding {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+/*PADDING, MARGIN*/
+    .wrapper__element_padding-zero {
+        padding: 0 0 0 0 !important;
+    }
+
+    .wrapper__element_margin-zero {
+        margin: 0 0 0 0 !important;
+    }
+
+    .wrapper__elem_padding-side {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .wrapper__main_padding {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+/*BACKGROUND*/
+    .wrapper__article_bg-grey {
+        background: url("../img/whatDoWeDo/bg.png") no-repeat center center;
+        background-size: cover;
+    }
+
+/*DISPLAY*/
+    .wrapper__elem_inline-block {
+        display: inline-block;
+    }
