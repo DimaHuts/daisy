@@ -1,46 +1,28 @@
-/*BODY, HTML */
+body {
+  color: #fff;
+  font-family: PFEncoreSansPro; }
 
-    body{
-        color: white;
-    }
+a {
+  color: #fff; }
+  a:focus, a:hover {
+    color: #fc635e; }
 
-/*a*/
-    a {
-        color: white;
-    }
+button {
+  outline: none; }
 
-    a:active, a:hover, a:focus {
-        color: rgba(252, 99, 94, 97);
-    }
+article.row,
+footer.row {
+  margin: 0 0 0 0; }
 
-/*BUTTON*/
-    button {
-        outline: none;
-    }
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  width: initial; }
 
-/*ARTICLE*/
-    footer.row,
-    article.row {
-        margin: 0;
-    }
+::-webkit-scrollbar {
+  width: 2px; }
 
-    .container {
-        width: initial;
-    }
+::-webkit-scrollbar-thumb {
+  background-color: #aaa; }
 
-
-/*h*/
-    h3, h4 {
-        margin: 0;
-    }
-
-/*SCROLLBAR*/
-
-    ::-webkit-scrollbar {
-        width: 2px;
-    }
-
-    ::-webkit-scrollbar-thumb
-    {
-        background-color: #aaa;
-    }
+/*# sourceMappingURL=index.css.map */

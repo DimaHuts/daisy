@@ -1,77 +1,111 @@
-    @media (max-width: 320px) {
-        body, .wrapper__footer {
-            min-width: 320px;
-        }
-    }
+@media (max-width: 320px) {
+  body, .wrapper__footer {
+    min-width: 320px; } }
+/*MAIN SCREEN*/
+/*MAIN MENU*/
+@media (max-width: 425px) {
+  .wrapper__nav_float {
+    float: none !important; }
 
-    @media (max-width: 425px) {
-        .nav > li > a:focus {
-            border: none !important;
-        }
-    }
+  .active-link {
+    border-bottom: none !important; } }
+/*IMG LINES*/
+@media (max-width: 1024px) {
+  .wrapper__img-lines > p {
+    display: inherit !important; }
 
+  .wrapper__img-lines > p:first-child,
+  .wrapper__img-lines > p:last-child {
+    position: inherit !important; } }
+/*BUTTON*/
+@media (max-width: 425px) {
+  .wrapper__main-screen button.wrapper__btn-and-mouse {
+    margin-left: 0 !important; } }
+@media (max-width: 320px) {
+  .wrapper__main-screen_btn {
+    width: 60% !important; } }
 /*OUR PROCESS*/
+/*IMAGES*/
+@media (max-width: 1024px) {
+  .wrapper__our-process_lamp {
+    background: url("../img/ourProcess/sm/lamp.png") !important;
+    top: 58px !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 8px !important; }
 
-    @media (max-width: 1024px) {
-        .wrapper__lamp-img-lg {
-            background: url('../img/ourProcess/sm/lamp.png') !important;
-            left: 8px !important;
-            top: 58px !important;
-        }
+  .wrapper__our-process_tv {
+    background: url("../img/ourProcess/sm/tv.png") !important;
+    top: 75px !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 127px !important; }
 
-        .wrapper__tv-img-lg {
-            background: url("../img/ourProcess/sm/tv.png") !important;
-            left: 127px !important;
-            top: 75px !important;
-        }
+  .wrapper__our-process_head {
+    background: url("../img/ourProcess/sm/head.png") !important; }
 
-        .wrapper__head-img-lg {
-            background: url("../img/ourProcess/sm/head.png") !important;
-        }
+  .wrapper__our-process_head {
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 171px !important; }
 
-        .wrapper__our-process_head {
-            left: 171px !important;
-        }
+  .wrapper__our-process_finger {
+    background: url("../img/ourProcess/sm/finger.png") !important;
+    top: 48px !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 260px !important; }
 
-        .wrapper__our-process_finger-img-lg {
-            background: url("../img/ourProcess/sm/finger.png") !important;
-            left: 260px !important;
-            top: 48px !important;
-        }
+  .wrapper__our-process_bottom-img {
+    background: url("../img/ourProcess/sm/img.png") !important;
+    width: 146px !important;
+    height: 110px !important;
+    top: 130px !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 58px !important; }
 
-        .wrapper__our-process_bottom-img {
-            background: url("../img/ourProcess/sm/img.png") !important;
-            width: 146px !important;
-            height: 110px !important;
-            left: 58px !important;
-            top: 130px !important;
-        }
+  /*RESIZERS FOR IMAGES*/
+  .wrapper__our-process_img-resizer {
+    width: 97px !important;
+    height: 101px !important; }
 
-        .wrapper__our-process_img-resizer {
-            width: 97px !important;
-            height: 101px !important;
-        }
+  .wrapper__our-process_img-resizer-lg {
+    width: 98px !important;
+    height: 111px !important; }
 
-        .wrapper__our-process_img-resizer-lg {
-            width: 98px !important;
-            height: 111px !important;
-        }
+  /*ALL STEPS*/
+  .wrapper__our-process main {
+    width: 400px !important;
+    height: 250px !important; }
 
-        .wrapper__our-process main {
-            height: 400px !important;
-        }
-
-        .wrapper__inner-text {
-            font-size: 11px !important;
-            top: 1.2em !important;
-            left: 2em !important;
-        }
-    }
-
-
+  /*TEXT IN STEPS*/
+  .wrapper__inner-text {
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 15% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    transform: scale(0.7); } }
+/*ALL STEPS*/
+@media (max-width: 375px) {
+  .wrapper__our-process main {
+    width: 300px !important; } }
+/*PORTFOLIO*/
+@media (max-width: 425px) {
+  .wrapper__portfolio_img_padding {
+    padding: 0 0 7px 0 !important; } }
 /*TESTIMONIALS*/
-    @media (max-width: 768px) {
-        .wrapper__testimonials_media {
-            top: 10% !important;
-        }
-    }
+@media (max-width: 768px) {
+  .wrapper__testimonials_media {
+    top: 10% !important;
+    right: initial !important;
+    bottom: 0 !important;
+    left: initial !important; }
+
+  .wrapper__testimonials_description_font {
+    text-align: left; } }
+
+/*# sourceMappingURL=media.css.map */

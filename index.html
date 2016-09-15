@@ -17,262 +17,282 @@
     <div class="wrapper">
 
         <!--START MAIN SCREEN-->
-        <article class="row">
+        <article class="row ">
+            <div class="wrapper__main-screen container">
 
-            <main class="wrapper__main-screen wrapper__elem_padding-side col-xs-12 text-center wrapper__div_position
-                        wrapper__div_padding">
+                <main class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12
+                             text-center wrapper__div_padding wrapper__div_position">
 
-                    <img class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-6
-                                wrapper__main-screen_logo" src="img/mainScreen/logo.png">
+                        <img class="col-lg-3 col-md-3 col-sm-2 col-xs-6 wrapper__main-screen_logo"
+                             src="img/mainScreen/logo.png">
 
-                    <nav class="col-lg-5 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-2">
-                        <div class="container-fluid">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
+                        <nav class="col-lg-5 col-lg-offset-5 col-md-6 col-sm-7 wrapper__nav_float">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target="#myNavbar">
+
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse wrapper__nav_float" id="myNavbar">
+
+                                    <ul class="nav navbar-nav wrapper__elem_inline-block">
+                                        <li class="text-left">
+                                            <a class="text-uppercase" href="#">about</a>
+                                        </li>
+                                        <li class="text-left">
+                                            <a class="text-uppercase active-link" href="#">portfolio</a>
+                                        </li>
+                                        <li class="text-left">
+                                            <a class="text-uppercase" href="#">services</a>
+                                        </li>
+                                        <li class="text-left">
+                                            <a class="text-uppercase" href="#">contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="collapse navbar-collapse" id="myNavbar">
-                                <ul class="nav navbar-nav wrapper__elem_inline-block">
-                                    <li>
-                                        <a class="text-uppercase wrapper__elem_padding-side" href="#">about</a>
-                                    </li>
-                                    <li class="dropdown active">
-                                        <a class="text-uppercase wrapper__elem_padding-side" href="#">portfolio</a>
-                                    </li>
-                                    <li>
-                                        <a class="text-uppercase wrapper__elem_padding-side" href="#">services</a>
-                                    </li>
-                                    <li>
-                                        <a class="text-uppercase wrapper__elem_padding-side" href="#">contact</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        </nav>
+
+                        <div class="text-uppercase wrapper__img-lines">
+                            <p class="wrapper__elem_inline-block">
+                                <img src="img/mainScreen/line.png">
+                            </p>
+
+                            <p class="wrapper__lines_text text-center wrapper__elem_inline-block">
+                                <span class="wrapper__text-red">clients</span>
+                                in your business
+                            </p>
+
+                            <p class="wrapper__elem_inline-block">
+                                <img src="img/mainScreen/line.png">
+                            </p>
                         </div>
-                    </nav>
 
-                    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                        <h2 class="text-uppercase wrapper__img-lines">
-                            <img src="img/mainScreen/line.png">
-                            <span class="wrapper__text-red">clients</span>
-                            in your business
-                            <img src="img/mainScreen/line.png">
-                        </h2>
-                        <h5>
+                        <p class="wrapper__note-to-lines text-center">
                             Your clients on the internet. Learn how to receive them.
-                        </h5>
-                        <button class="wrapper__btn-custom-border wrapper__btn-custom-border_margin btn-lg
-                                       wrapper__text-red wrapper__btn-and-mouse wrapper__elem_inline-block">
-                            I want clients
-                        </button>
-                        <img src="img/mainScreen/mouse.png" class="wrapper__main-screen_mouse wrapper__btn-and-mouse
-                                                                   wrapper__elem_inline-block">
-                    </div>
+                        </p>
 
-                    <img src="img/mainScreen/slider.png" class="wrapper__slider__position">
-            </main>
+                        <button class="wrapper__main-screen_btn wrapper__text-red wrapper__btn-and-mouse">
+                            <span>I want clients</span>
+                        </button>
+                        <img src="img/mainScreen/mouse.png" class="wrapper__main-screen_mouse wrapper__btn-and-mouse">
+
+                        <img href="#canReceive" src="img/mainScreen/slider.png" class="wrapper__slider__position">
+                </main>
+            </div>
 
         </article>
         <!--END MAIN SCREEN-->
 
         <!--START WHAT CAN YOU RECEIVE-->
-        <article class="row wrapper__div_position">
-            <div class="wrapper__canReceive text-center wrapper__div_color wrapper__div_padding container">
+        <article id="canReceive" class="row wrapper__div_position container">
+            <div class="wrapper__canReceive text-center wrapper__div_padding col-lg-10 col-lg-offset-1 col-md-10
+                        col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
 
-                <header class="col-lg-10 col-lg-offset-1">
-                    <h4 class="text-uppercase wrapper__header_border-bottom">what can
+                <header>
+                    <p class="text-uppercase wrapper__header_border-bottom">what can
                         <span class="wrapper__text-red">you receive?</span>
-                    </h4>
-                    <h5>Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                    </p>
+                    <br>
+                    <p class="wrapper__text_pre-line">
+                        Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh
                         vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                    </h5>
+                    </p>
                 </header>
 
-                <main class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wrapper__div_padding">
+                <main class="wrapper__div_padding wrapper__you-receive_flex-container">
 
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                        <p><img src="img/whatCanYouReceive/clients.png"></p>
-                        <h4 class="text-uppercase">clients</h4>
-                        <p><img src="img/whatCanYouReceive/line.png"></p>
-                        <h6>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                    <div class="wrapper__you-receive_flex-item">
+                        <p>
+                            <img src="img/whatCanYouReceive/clients.png">
+                        </p>
+                        <p class="text-uppercase wrapper__you-receive_flex-item_header">clients</p>
+                        <img src="img/whatCanYouReceive/line.png">
+                        <p class="wrapper__you-receive_flex-item_describe">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
                             vel velit auctor aliquet.Aenean
-                        </h6>
+                        </p>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                        <p><img src="img/whatCanYouReceive/branding.png"></p>
-                        <h4 class="text-uppercase">branding</h4>
-                        <p><img src="img/whatCanYouReceive/line.png"></p>
-                        <h6>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                    <div class="wrapper__you-receive_flex-item">
+                        <p>
+                            <img src="img/whatCanYouReceive/branding.png">
+                        </p>
+                        <p class="text-uppercase wrapper__you-receive_flex-item_header">branding</p>
+                        <img src="img/whatCanYouReceive/line.png">
+                        <p class="wrapper__you-receive_flex-item_describe">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
                             vel velit auctor aliquet.Aenean
-                        </h6>
+                        </p>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                        <p><img src="img/whatCanYouReceive/marketing.png"></p>
-                        <h4 class="text-uppercase">marketing</h4>
-                        <p><img src="img/whatCanYouReceive/line.png"></p>
-                        <h6>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                    <div class="wrapper__you-receive_flex-item">
+                        <p>
+                            <img src="img/whatCanYouReceive/marketing.png">
+                        </p>
+                        <p class="text-uppercase wrapper__you-receive_flex-item_header">marketing</p>
+                        <img src="img/whatCanYouReceive/line.png">
+                        <p class="wrapper__you-receive_flex-item_describe">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
                             vel velit auctor aliquet.Aenean
-                        </h6>
+                        </p>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                        <p><img src="img/whatCanYouReceive/adv.png"></p>
-                        <h4 class="text-uppercase">adv.</h4>
-                        <p><img src="img/whatCanYouReceive/line.png"></p>
-                        <h6>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                    <div class="wrapper__you-receive_flex-item">
+                        <p>
+                            <img src="img/whatCanYouReceive/adv.png">
+                        </p>
+                        <p class="text-uppercase wrapper__you-receive_flex-item_header">adv.</p>
+                        <img src="img/whatCanYouReceive/line.png">
+                        <p class="wrapper__you-receive_flex-item_describe">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
                             vel velit auctor aliquet.Aenean
-                        </h6>
+                        </p>
                     </div>
                 </main>
 
             </div>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#expand" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
 
         </article>
         <!--END WHAT CAN YOU RECEIVE-->
 
         <!--START EXPAND-->
-        <article class="row wrapper__div_position">
-            <div class="wrapper__expand text-center wrapper__div_padding container">
+        <article id="expand" class="row wrapper__div_position">
+            <div class="wrapper__expand text-center container wrapper__div_padding">
 
                 <main class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1
-                                    col-xs-10 col-xs-offset-1 wrapper__border-expand">
-                    <h1 class="text-uppercase wrapper__element_margin-zero">
-                        <span class="wrapper__text-red">expand</span>
-                        your business
-                    </h1>
-                    <button class="wrapper__btn-custom-border wrapper__btn-custom-border_margin wrapper__text-red
-                                   btn-lg">
-                        Join Us
-                    </button>
+                             col-xs-10 col-xs-offset-1 wrapper__div_padding">
+
+                    <div class="wrapper__border-expand">
+                        <p class="text-uppercase">
+                            <span class="wrapper__text-red">expand</span>
+                            your business
+                        </p>
+                        <button class="wrapper__text-red">
+                            <span>Join Us</span>
+                        </button>
+                    </div>
+
                 </main>
 
             </div>
 
-            <img src="img/mainScreen/slider.png" class="wrapper__slider__position">
+            <img href="#our-process" src="img/mainScreen/slider.png" class="wrapper__slider__position">
         </article>
         <!--END EXPAND-->
 
-
         <!--START OUR PROCESS-->
-        <article class="row wrapper__our-process wrapper__div_position">
-            <div class="wrapper__div_color wrapper__div_padding col-lg-10 col-lg-offset-1">
+        <article id="our-process" class="row wrapper__div_position">
 
-                <header class="text-center">
-                    <h4 class="text-uppercase wrapper__header_border-bottom">our
+            <div class="wrapper__our-process wrapper__div_padding col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1
+                        col-sm-10 col-sm-offset-1 col-xs-12 text-center">
+
+                <header>
+                    <p class="text-uppercase wrapper__header_border-bottom wrapper__our-process_step-header">our
                         <span class="wrapper__text-red">process</span>
-                    </h4>
-                    <h5>Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                    </p>
+                    <p class="wrapper__text_pre-line">
+                        Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh
                         vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                    </h5>
+                    </p>
                 </header>
 
-                <main class="wrapper__div_position col-lg-offset-1 col-sm-offset-2 col-md-offset-4
-                             wrapper__main_padding">
+                <main class="wrapper__div_position wrapper__main_padding">
 
                     <!--START STEP 1-->
-                    <div class="wrapper__element_padding-zero wrapper__lamp-img-lg
-                                        wrapper__our-process_img-resizer wrapper__our-process_lamp">
-
-                        <div class="wrapper__element_margin-zero wrapper__inner-text text-center">
-                            <p class="wrapper__header_border-bottom wrapper__element_padding-zero">
-                                        <span class="text-uppercase">
-                                            step
-                                        </span>
+                    <div class="wrapper__our-process_lamp wrapper__our-process_img-resizer">
+                        <section class="wrapper__inner-text text-center">
+                            <h2>
+                                <span class="text-uppercase">
+                                    step
+                                </span>
                                 <span class="wrapper__text-red">1</span>
-                            </p>
-                            <p class="wrapper__element_margin-zero">
+                            </h2>
+                            <p>
                                 This is Photoshop's version
                                 of Lorem Ipsum. Proin gravida
                             </p>
-                        </div>
+                        </section>
                     </div>
                     <!--END STEP1-->
 
                     <div class="wrapper__our-process_bottom-img"></div>
 
                     <!--START STEP 2-->
-                    <div class="wrapper__tv-img-lg wrapper__our-process_img-resizer
-                                        wrapper__element_padding-zero wrapper__our-process_tv">
-
-                        <div class="wrapper__element_margin-zero wrapper__inner-text text-center">
-                            <p class="wrapper__header_border-bottom wrapper__element_padding-zero">
-                                        <span class="text-uppercase">
-                                            step
-                                        </span>
+                    <div class="wrapper__our-process_img-resizer wrapper__our-process_tv">
+                        <section class="wrapper__inner-text text-center">
+                            <h2>
+                                <span class="text-uppercase">
+                                    step
+                                </span>
                                 <span class="wrapper__text-red">2</span>
-                            </p>
-                            <p class="wrapper__element_margin-zero">
+                            </h2>
+                            <p>
                                 This is Photoshop's version
                                 of Lorem Ipsum. Proin gravida
                             </p>
-                        </div>
+                        </section>
                     </div>
                     <!--END STEP 2-->
 
                     <!--START STEP 3-->
-                    <div class="wrapper__head-img-lg wrapper__our-process_img-resizer
-                                        wrapper__element_padding-zero wrapper__our-process_head">
-
-                        <div class="wrapper__element_margin-zero wrapper__inner-text text-center">
-                            <p class="wrapper__header_border-bottom wrapper__element_padding-zero">
-                                        <span class="text-uppercase">
-                                            step
-                                        </span>
+                    <div class="wrapper__our-process_img-resizer wrapper__our-process_head">
+                        <section class="wrapper__inner-text text-center">
+                            <h2>
+                                <span class="text-uppercase">
+                                    step
+                                </span>
                                 <span class="wrapper__text-red">3</span>
-                            </p>
-                            <p class="wrapper__element_margin-zero">
+                            </h2>
+                            <p>
                                 This is Photoshop's version
                                 of Lorem Ipsum. Proin gravida
                             </p>
-                        </div>
+                        </section>
                     </div>
                     <!--END STEP 3-->
 
                     <!--START STEP 4-->
-                    <div class="wrapper__our-process_finger-img-lg wrapper__element_padding-zero
-                                        wrapper__our-process_img-resizer-lg wrapper__our-process_finger">
-
-                        <div class="wrapper__element_margin-zero wrapper__inner-text text-center">
-                            <p class="wrapper__header_border-bottom wrapper__element_padding-zero">
-                                        <span class="text-uppercase">
-                                            step
-                                        </span>
+                    <div class="wrapper__our-process_img-resizer-lg wrapper__our-process_finger">
+                        <section class="wrapper__inner-text text-center">
+                            <h2>
+                                <span class="text-uppercase">
+                                    step
+                                </span>
                                 <span class="wrapper__text-red">4</span>
-                            </p>
-                            <p class="wrapper__element_margin-zero">
+                            </h2>
+                            <p>
                                 This is Photoshop's version
                                 of Lorem Ipsum. Proin gravida
                             </p>
-                        </div>
+                        </section>
                     </div>
                     <!--END STEP 4-->
                 </main>
 
             </div>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#landing" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
         </article>
         <!--END OUR PROCESS-->
 
         <!--START WHAT DO WE DO-->
 
         <!--start landing pages-->
-        <article class="row wrapper__article_bg-grey wrapper__div_position">
-            <div class="wrapper__div_color wrapper__div_padding col-lg-10 col-lg-offset-1">
+        <article id="landing" class="row wrapper__article_bg-grey wrapper__div_position">
+            <div class="wrapper__we-do wrapper__div_padding col-lg-10 col-lg-offset-1">
 
                 <header class="text-center">
-                    <h4 class="text-uppercase wrapper__header_border-bottom">what do
+                    <p class="text-uppercase wrapper__header_border-bottom">what do
                         <span class="wrapper__text-red">we do</span>
-                    </h4>
-                    <h5>Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                    </h5>
+                    </p>
                 </header>
 
-                <main>
+                <main class="container wrapper__we-do_main-padding_header">
+
                     <div class="wrapper__we-do_description col-lg-6 col-md-6 col-sm-12 wrapper__we-do_img-margin">
                         <img src="img/whatDoWeDo/rectangle.png">
                         <h2 class="text-uppercase">landing pages</h2>
@@ -281,15 +301,13 @@
                             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
                             sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                            Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                            consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
-                            conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                            dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin
-                            condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
-                            egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                            Nam
                         </p>
-                        <button class="btn btn-lg wrapper__custom-btn">More details</button>
+                        <button>
+                            <span>More details</span>
+                        </button>
                     </div>
+
                     <div class="col-lg-6 col-md-6 col-sm-12 wrapper__we-do_img-margin text-center">
                             <img src="img/whatDoWeDo/landing.png" class="img-responsive wrapper__elem_inline-block">
                     </div>
@@ -297,19 +315,20 @@
 
             </div>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#advertising" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
         </article>
         <!--end landing pages-->
 
         <!--start advertising-->
-        <article class="row wrapper__div_position">
-            <main class="wrapper__div_color wrapper__div_padding col-lg-10 col-lg-offset-1">
+        <article id="advertising" class="row wrapper__div_position wrapper__we-do">
+            <main class="wrapper__div_padding col-lg-10 col-lg-offset-1 wrapper__we-do_main">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 wrapper__we-do_img-margin text-center">
                             <img src="img/whatDoWeDo/advertisingDevice.png" class="img-responsive">
                     </div>
+
                     <div class="wrapper__we-do_description col-lg-6 col-md-6 col-sm-12 wrapper__we-do_img-margin
-                                        text-right">
+                                text-right">
                         <h2 class="text-uppercase">advertising</h2>
                         <p class="wrapper__we-do_description_rect">
                             <img src="img/whatDoWeDo/rectangle.png" class="wrapper__elem_inline-block">
@@ -319,25 +338,22 @@
                             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
                             sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                            Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                            consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
-                            conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                            dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin
-                            condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
-                            egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                            Nam
                         </p>
-                        <button class="btn btn-lg wrapper__custom-btn">More details</button>
+                        <button>
+                            <span>More details</span>
+                        </button>
                     </div>
 
             </main>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#marketing-kit" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
         </article>
         <!--end advertising-->
 
         <!--start marketing kit-->
-        <article class="row wrapper__article_bg-grey wrapper__div_position">
-            <main class="wrapper__div_color wrapper__div_padding col-lg-10 col-lg-offset-1">
+        <article id="marketing-kit" class="row wrapper__article_bg-grey wrapper__div_position wrapper__we-do">
+            <main class="wrapper__div_padding col-lg-10 col-lg-offset-1 wrapper__we-do_main">
 
                     <div class="wrapper__we-do_description col-lg-6 col-md-6 col-sm-12 wrapper__we-do_img-margin">
                         <img src="img/whatDoWeDo/rectangle.png">
@@ -347,14 +363,11 @@
                             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
                             sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                            Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                            consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
-                            conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                            dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin
-                            condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
-                            egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                            Nam
                         </p>
-                        <button class="btn btn-lg wrapper__custom-btn">More details</button>
+                        <button>
+                            <span>More details</span>
+                        </button>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 wrapper__we-do_img-margin text-center">
                             <img src="img/whatDoWeDo/marketing.png" class="img-responsive">
@@ -362,139 +375,142 @@
 
             </main>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#portfolio" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
         </article>
         <!--end marketing kit-->
 
         <!--END WHAT DO WE DO-->
 
         <!--START PORTFOLIO-->
-        <article class="row wrapper__div_position">
+        <article id="portfolio" class="row wrapper__div_position wrapper__portfolio">
             <div class="wrapper__div_color wrapper__div_padding col-lg-10 col-lg-offset-1">
 
                 <header class="text-center">
-                    <h4 class="text-uppercase wrapper__header_border-bottom">
+                    <p class="text-uppercase wrapper__header_border-bottom">
                         portfolio
-                    </h4>
+                    </p>
                 </header>
 
-                <main class="wrapper__portfolio wrapper__main_padding">
+                <main class="container wrapper__div_padding">
 
                     <nav>
-                        <hr>
-                        <ul class="wrapper__element_padding-zero wrapper__element_margin-zero">
-                            <li class="text-uppercase wrapper__text-red wrapper__elem_inline-block text-left">
+                        <ul>
+                            <li class="text-uppercase text-center">
                                 all
                             </li>
-                            <li class="wrapper__elem_inline-block text-left">/</li>
-                            <li class="text-uppercase wrapper__text-red wrapper__elem_inline-block text-left">
+                            <li class="text-center">/</li>
+                            <li class="text-uppercase text-center">
                                 entertainment
                             </li>
-                            <li class="wrapper__elem_inline-block text-left">/</li>
-                            <li class="text-uppercase wrapper__text-red wrapper__elem_inline-block text-left">
+                            <li class="text-center">/</li>
+                            <li class="text-uppercase text-center">
                                 sport
                             </li>
-                            <li class="wrapper__elem_inline-block text-left">/</li>
-                            <li class="text-uppercase wrapper__text-red wrapper__elem_inline-block text-left">
+                            <li class="text-center">/</li>
+                            <li class="text-uppercase text-center">
                                 eusiness
                             </li>
-                            <li class="wrapper__elem_inline-block text-left">/</li>
-                            <li class="text-uppercase wrapper__text-red wrapper__elem_inline-block text-left">
+                            <li class="text-center">/</li>
+                            <li class="text-uppercase text-center">
                                 building
                             </li>
                         </ul>
-                        <hr>
                     </nav>
 
+                    <figure>
+                        <img src="img/portfolio/bike.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive">
+                        <img src="img/portfolio/group2.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive">
+                        <img src="img/portfolio/group1.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive">
+                        <img src="img/portfolio/cars.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive">
+                    </figure>
 
-
-                    <img src="img/portfolio/bike.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive
-                                                      wrapper__portfolio_img-height wrapper__element_padding-zero">
-
-                    <img src="img/portfolio/group2.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive
-                     wrapper__portfolio_img-height wrapper__element_padding-zero wrapper__portfolio_img-margin">
-
-                    <br>
-
-                    <img src="img/portfolio/group1.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive
-                                                      wrapper__portfolio_img-height wrapper__element_padding-zero">
-
-                    <img src="img/portfolio/cars.png" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 img-responsive
-                                                    wrapper__portfolio_img-height wrapper__element_padding-zero">
+                    <button>
+                        <span>I want landing page</span>
+                    </button>
 
                 </main>
-                <button class="btn btn-lg wrapper__custom-btn col-lg-offset-5 col-md-offset-5 col-sm-offset-4
-                                       col-xs-offset-2">
-                    I want landing page
-                </button>
 
             </div>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#our-team" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
         </article>
         <!--END PORTFOLIO-->
 
         <!--START OUR TEAM-->
-        <article class="row wrapper__div_position wrapper__our-team wrapper__article_bg-grey">
+        <article id="our-team" class="row wrapper__div_position wrapper__our-team wrapper__article_bg-grey">
             <div class="wrapper__div_color wrapper__div_padding col-lg-10 col-lg-offset-1">
+
                 <header class="text-center text-uppercase">
-                    <h4 class="wrapper__header_border-bottom">our
+                    <p class="wrapper__header_border-bottom">our
                         <span class="wrapper__text-red">team</span>
-                    </h4>
+                    </p>
                 </header>
-                <main class="col-lg-offset-2 col-md-offset-2 col-sm-offset-1 container wrapper__main_padding">
-                    <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+
+                <main class="container wrapper__main_padding wrapper__you-receive_flex-container">
+                    <div class="text-center wrapper__our-team_flex-item">
                         <img src="img/our%20team/tomothy.png" class="img-responsive wrapper__elem_inline-block">
-                        <h4 class="wrapper__our-team_employee">
-                            <span class="wrapper__text-red">Tomothy</span>
-                            Bowman
-                        </h4>
-                        <p class="wrapper__our-team_employee">Marketing</p>
-                        <p>
-                            <img src="img/our%20team/social/tw.png">
-                            <img src="img/our%20team/social/fb.png">
-                            <img src="img/our%20team/social/in.png">
-                        </p>
+                        <section>
+                            <p title="Tomothy Bowman">
+                                <span class="wrapper__text-red">Tomothy</span>
+                                Bowman
+                            </p>
+                            <p>Marketing</p>
+                        </section>
+                        <figure>
+                            <p>
+                                <img src="img/our%20team/social/tw.png">
+                                <img src="img/our%20team/social/fb.png">
+                                <img src="img/our%20team/social/in.png">
+                            </p>
+                        </figure>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                    <div class="text-center wrapper__our-team_flex-item">
                         <img src="img/our%20team/steve.png" class="img-responsive wrapper__elem_inline-block">
-                        <h4 class="wrapper__our-team_employee">
-                            <span class="wrapper__text-red">Steve</span>
-                            Tracy
-                        </h4>
-                        <p class="wrapper__our-team_employee">CEO</p>
-                        <p>
-                            <img src="img/our%20team/social/tw.png">
-                            <img src="img/our%20team/social/fb.png">
-                            <img src="img/our%20team/social/in.png">
-                        </p>
+                        <section>
+                            <p title="Steve Tracy">
+                                <span class="wrapper__text-red">Steve</span>
+                                Tracy
+                            </p>
+                            <p>CEO</p>
+                        </section>
+                        <figure>
+                            <p>
+                                <img src="img/our%20team/social/tw.png">
+                                <img src="img/our%20team/social/fb.png">
+                                <img src="img/our%20team/social/in.png">
+                            </p>
+                        </figure>
                     </div>
 
-                    <div class="col-lg-3  col-md-3 col-sm-3 text-center">
+                    <div class="text-center wrapper__our-team_flex-item">
                         <img src="img/our%20team/hellen.png" class="img-responsive wrapper__elem_inline-block">
-                        <h4 class="wrapper__our-team_employee">
-                            <span class="wrapper__text-red">Hellen</span>
-                            Johns
-                        </h4>
-                        <p class="wrapper__our-team_employee">Clients</p>
-                        <p>
-                            <img src="img/our%20team/social/tw.png">
-                            <img src="img/our%20team/social/fb.png">
-                            <img src="img/our%20team/social/in.png">
-                        </p>
+                        <section>
+                            <p title="Hellen Johns">
+                                <span class="wrapper__text-red">Hellen</span>
+                                Johns
+                            </p>
+                            <p>Clients</p>
+                        </section>
+                        <figure>
+                            <p>
+                                <img src="img/our%20team/social/tw.png">
+                                <img src="img/our%20team/social/fb.png">
+                                <img src="img/our%20team/social/in.png">
+                            </p>
+                        </figure>
                     </div>
                 </main>
 
             </div>
 
-            <img src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
+            <img href="#testimonials" src="img/whatCanYouReceive/slider.png" class="wrapper__slider__position">
         </article>
         <!--END OUR TEAM-->
 
         <!--START TESTIMONIALS-->
-        <article class="row">
-            <div class="wrapper__div_color wrapper__div_padding wrapper__div_position">
+        <article id="testimonials" class="row wrapper__testimonials">
+            <div class="wrapper__div_padding wrapper__div_position">
 
                 <main class="container wrapper__div_padding">
 
@@ -502,30 +518,31 @@
 
                     <div class="col-lg-offset-1 col-md-offset-1 wrapper__main_padding">
                         <div class="col-lg-4 col-md-4 wrapper__testimonials_description_height wrapper__div_position">
-                            <h4 class="text-left wrapper__testimonials_description">
+                            <p class="text-left wrapper__testimonials_description wrapper__testimonials_description_font text-right">
                                 This is Photoshop's version  of Lorem Ipsum. Proin
                                 gravida nibh vel velit auctor aliquet. Aenean
                                 sollicitudin, lorem quis bibendum auctor, nisi elit
-                            </h4>
+                            </p>
                         </div>
 
                         <div class="col-lg-3 col-md-3 text-center">
                             <img src="img/testimonials/alan.png" class="wrapper__testimonial_avatar">
-                            <p class="wrapper__testimonials_pagination">
+                            <figure class="wrapper__testimonials_pagination">
                                 <img src="img/testimonials/paginationLeft.png">
                                 <img src="img/testimonials/paginationRight.png">
-                            </p>
+                            </figure>
                         </div>
 
                         <div class="col-lg-4 col-md-4 wrapper__testimonials_description_height wrapper__div_position">
-                            <div class="wrapper__testimonials_description wrapper__testimonials_media">
-                                <h3>
+                            <div class="wrapper__testimonials_description wrapper__testimonials_media text-left">
+                                <p class="wrapper__testimonial_name">
                                     <span class="wrapper__text-red">Alan</span>
                                     Richman
-                                </h3>
-                                <h4>CEO of Romashka</h4>
+                                </p>
+                                <p class="wrapper__testimonial_position">CEO of Romashka</p>
                             </div>
                         </div>
+
                     </div>
                 </main>
 
@@ -535,7 +552,7 @@
         <!--END TESTIMONIALS-->
 
         <!--START MAP-->
-        <article class="row wrapper__map_bg wrapper__div_position">
+        <article class="row wrapper__map wrapper__div_position">
 
             <main class="wrapper__img_transform wrapper__map_inner-img">
                 <div class="wrapper__div_position wrapper__map_inner-text text-center">
@@ -561,5 +578,6 @@
 
     <script src="libs/jquery/jquery-3.1.0.min.js"></script>
     <script src="libs/twitter_bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
     </body>
 </html>

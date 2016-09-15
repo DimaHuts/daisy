@@ -1,0 +1,46 @@
+@import "mixins";
+
+//FONT-FAMILY
+    $font-family: PFEncoreSansPro;
+//COLORS FOR LINKS
+    $links-color: #fff;
+    $links-hover-color: #fc635e; //HOVERS AND FOCUSES LINKS
+//SCROLL BAR
+    $scroll-width: 2px;
+    $scroll-background-color: #aaa;
+
+
+    body {
+        color: #fff;
+        font-family: $font-family;
+    }
+
+    a {
+        color: $links-color;
+        &:focus,
+        &:hover {
+            color: $links-hover-color;
+        }
+    }
+
+    button {
+        outline: none;
+    }
+
+    article.row,
+    footer.row {
+        @include margin-zero;
+    }
+
+    .container {
+        @include padding-side-zero;
+        width: initial;
+    }
+
+    ::-webkit-scrollbar {
+        width: $scroll-width;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: $scroll-background-color;
+    }

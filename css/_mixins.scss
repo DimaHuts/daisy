@@ -1,0 +1,33 @@
+$main-color: rgba(252, 99, 94, 97);
+
+  @mixin margin-zero {
+    margin: 0 0 0 0;
+  }
+
+  @mixin padding-zero {
+    padding: 0 0 0 0 !important;
+  }
+
+  @mixin padding-side-zero {
+    padding-left:0;
+    padding-right:0;
+  }
+
+  @mixin elem-position ($top, $right, $bottom, $left) {
+    top: $top !important;
+    right: $right !important;
+    bottom: $bottom !important;
+    left: $left !important;
+  }
+
+  @mixin elem-size ($width, $height) {
+    width: $width !important;
+    height: $height !important;
+}
+
+  @mixin elem-font ($font-size, $font-weight, $line-height, $text-color) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    color: $text-color;
+  }
